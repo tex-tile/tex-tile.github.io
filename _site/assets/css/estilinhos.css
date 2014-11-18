@@ -6438,8 +6438,11 @@ h1.title {
 }
 @media (min-width: 1199px) {
   h1.title {
-    margin-right: 60px;
+    margin-right: 53px;
   }
+}
+#filter {
+  margin-top: -5px;
 }
 /* MENU */
 .navbar-default {
@@ -6530,29 +6533,34 @@ h4.title {
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  right: 5%;
+  right: 60px;
 }
 .carousel-control.left {
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  left: 5%;
+  left: 60px;
 }
 .carousel-control {
   width: 20px;
-  top: 50%;
+  top: 250px;
 }
 a.carousel-control:hover {
   border-bottom: 0px solid #ffffff;
 }
 .item h6 {
   margin-top: 25px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   text-align: center;
   text-transform: lowercase;
 }
 @media (min-width: 1199px) {
-  .item .tile-img {
+  .item .tile-img.tiles {
     padding: 0px 200px;
+  }
+}
+@media (min-width: 1199px) {
+  .item .tile-img.projects {
+    padding: 0px 140px;
   }
 }

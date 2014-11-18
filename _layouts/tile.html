@@ -14,23 +14,23 @@ layout: default
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
 
-  
+
 		  
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 
 		  	<div class="item active">
-		  				<h6>{{ page.collection }} | {{ page.title }} | {{ page.size }} | {{ page.color }}</h6>
-				      <div class="tile-img"><img src="/assets/img/projects/{{ page.folder }}/{{ page.img }}" alt="{{ page.title }}" class="img-responsive"></div>
+		  				<h6>{{ page.collection }} | {{ page.title }} {% if page.size  != null %} | {{ page.size }} {% endif %}  {% if page.color  != null %} | {{ page.color }} {% endif %}</h6>
+				      <div class="tile-img {{ page.type }}"><img src="/assets/img/projects/{{ page.folder }}/{{ page.img }}" alt="{{ page.title }}" class="img-responsive"></div>
 				    </div>
 
 		  	{% for post in site.posts %}
 	        	{% if post.folder == page.folder %}
 	        		{% if post.title != page.title %}
 					    <div class="item">
-					    	<h6>{{ post.collection }} | {{ post.title }} | {{ post.size }} | {{ post.color }}</h6>
-					      <div class="tile-img"><img src="/assets/img/projects/{{ post.folder }}/{{ post.img }}" alt="{{ post.title }}" class="img-responsive"></div>
+					    	<h6>{{ post.collection }} | {{ post.title }} {% if post.size  != null %} | {{ post.size }} {% endif %}  {% if post.color  != null %} | {{ post.color }} {% endif %}</h6>
+					      <div class="tile-img {{ post.type }}"><img src="/assets/img/projects/{{ post.folder }}/{{ post.img }}" alt="{{ post.title }}" class="img-responsive"></div>
 					      
 					    </div>
 			 		{% endif %}
