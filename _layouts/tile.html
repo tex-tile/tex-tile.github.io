@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div id="left" class="col-lg-3 col-md-3 col-sm-3 col-xs-2">
+	<h4 class="title"><strong>{{ page.collection }}</strong></h4 class="title">
+	<p>
+		{% include collections/{{ page.folder }}.html %}
+	</p>
+</div>
+
+<div id="right" class="col-lg-9  col-md-9 col-sm-9 col-xs-10">
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+
+  
+		  
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+
+		  	<div class="item active">
+		  				<h6>{{ page.collection }} | {{ page.title }} | {{ page.size }} | {{ page.color }}</h6>
+				      <div class="tile-img"><img src="/assets/img/projects/{{ page.folder }}/{{ page.img }}" alt="{{ page.title }}" class="img-responsive"></div>
+				    </div>
+
+		  	{% for post in site.posts %}
+	        	{% if post.folder == page.folder %}
+	        		{% if post.title != page.title %}
+					    <div class="item">
+					    	<h6>{{ post.collection }} | {{ post.title }} | {{ post.size }} | {{ post.color }}</h6>
+					      <div class="tile-img"><img src="/assets/img/projects/{{ post.folder }}/{{ post.img }}" alt="{{ post.title }}" class="img-responsive"></div>
+					      
+					    </div>
+			 		{% endif %}
+			 	{% endif %}
+	        {% endfor %}
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <img src="/assets/img/id/left.png" class="img-responsive" />
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <img src="/assets/img/id/right.png" class="img-responsive" />
+		    <span class="sr-only">Next</span>
+		  </a>
+	</div>
+
+	
+
+</div>
+
