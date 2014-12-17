@@ -4,6 +4,7 @@
 @dark-grey:rgb(35,35,35);
 @mid-grey:#706f6f;
 @light-grey:#706f6f;
+@light-light-grey:#DDDDDD;
 
 @font-face {
 	font-family: 'futura_reg';
@@ -93,18 +94,22 @@ h1.title {
 
 
 .navbar-nav > li > a {
-padding: 0px 10px 0px 10px;
-margin: 0px 20px 0px 20px;
-text-transform: uppercase;
-font-size: 10px;
-letter-spacing: 1px;
-line-height: 60px;
-@media (max-width: @screen-xs-max) { 
-      margin: 0px;
-      padding: 20px;
-      background: rgb(245, 245, 245);
-      line-height: 10px;
-    }
+		
+		padding: 0px 0px 0px 0px;
+		margin: 0px 30px 0px 30px;
+		text-transform: uppercase;
+		font-size: 10px;
+		letter-spacing: 1px;
+		line-height: 60px;
+		
+		@media (max-width: @screen-xs-max) { 
+		      margin: 0px;
+		      padding: 20px;
+		      background: rgb(245, 245, 245);
+		      line-height: 10px;
+    	}
+
+    	&:first-child {padding-left: 0px; margin-left: 13px;}
 }
 
 
@@ -138,6 +143,10 @@ margin-bottom: 6px;
 .header {
 	margin-bottom: 40px;
 }
+
+.navbar-default .navbar-nav > li > a.active {
+			border-bottom:2px solid @light-light-grey;
+		}
 
 /* HOME */
 
@@ -229,3 +238,6 @@ border-bottom: 0px solid #ffffff;
 	}
 
 }
+
+
+

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>projects</title>
         <meta name="viewport" content="width=device-width">
 
         <link rel="icon" type="image/png" href="/assets/img/id/fav.png" />
@@ -46,8 +46,8 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav main-menu">
                             <li><a href="/collections.html"
-                                 {% if page.title == 'collections' %} class="active" {% endif %}>collections</a></li>
-                            <li><a href="/projects.html" {% if page.title == 'projects' %} class="active" {% endif %}>projects</a></li>
+                                 >collections</a></li>
+                            <li><a href="/projects.html"  class="active" >projects</a></li>
                             <li><a class="#" href="/">about</a></li>
                             <li><a class="#" href="/">media</a></li>
                             <li><a class="#" href="/">contact</a></li>
@@ -58,7 +58,225 @@
         </div>
 
          
-          {{ content }}
+          <div id="left" class="col-lg-2 col-md-2 col-sm-3 col-xs-2">
+	<ul id="filter" class="option-set clearfix" data-option-key="filter" >
+	              <li><a href="#show-all" class="filter" data-option-value="all" class="selected">all</a></li>
+	              <li> — </li>
+
+	              
+
+	              <li><a href="#designjunction" class="filter" data-option-value="designjunction">Design Junction '13</a></li>
+	              <li><a href="#c-12" class="filter" data-option-value="c-12">C '12</a></li>
+	              <li><a href="#c-11" class="filter" data-option-value="c-11">C '11</a></li>
+	              <li><a href="#c-10" class="filter" data-option-value="c-10">C '10</a></li>
+	              
+				  <li> — </li>
+
+				  <li><a href="#tiles" class="filter" data-option-value="tiles">tiles</a></li>
+	              <li><a href="#projects" class="filter" data-option-value="projects">projects</a></li>
+
+	              <li> — </li>
+
+	              
+			          <li class="number"><a href="#2010" class="filter" data-option-value="2010">2010</a></li>
+			      
+			          <li class="number"><a href="#2011" class="filter" data-option-value="2011">2011</a></li>
+			      
+			          <li class="number"><a href="#2012" class="filter" data-option-value="2012">2012</a></li>
+			      
+			          <li class="number"><a href="#2013" class="filter" data-option-value="2013">2013</a></li>
+			      
+              
+	 </ul>
+
+</div>
+
+
+<div id="right" class="col-lg-10 col-md-10 col-sm-9 col-xs-10">
+	  
+	  <ul id="container" class="posts row">
+	        
+
+	        
+
+	        
+
+        
+	          <li class="element 2013  designjunction projects col-lg-4 col-md-3 col-sm-4 col-xs-12" >
+
+	            <a href="/designjunction-02.html">
+	                  
+	            <img src="/assets/img/projects/designjunction/designjunction-02.jpg" class="img-responsive">
+	            
+	            </a>
+	            <!-- hidden-lg hidden-md hidden-sm -->
+	            <h6 class="">Designjunction '13 </h6>
+	          </li>
+
+	        
+
+	        
+
+	        
+
+        
+	          <li class="element 2013  designjunction projects col-lg-4 col-md-3 col-sm-4 col-xs-12" >
+
+	            <a href="/designjunction-01.html">
+	                  
+	            <img src="/assets/img/projects/designjunction/designjunction-01.jpg" class="img-responsive">
+	            
+	            </a>
+	            <!-- hidden-lg hidden-md hidden-sm -->
+	            <h6 class="">Designjunction '13 </h6>
+	          </li>
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	        
+
+	       
+	   </ul>
+
+</div>
+
+
+<script>
+          $('#container').imagesLoaded(function() {
+        $('#container').isotope({ 
+            itemSelector : '.element' 
+           
+      });
+        
+        $('a.filter').click(function(e) {
+              e.preventDefault();
+          var to_filter = $(this).attr('data-option-value');
+          if(to_filter == 'all') {
+                  $('#container').isotope({filter: '.element'});
+          } else {
+                  $('#container').isotope({filter: '.'+ to_filter});
+          }
+          
+        });
+      });
+
+          // set selected menu items
+   var $optionSets = $('.option-set'),
+       $optionLinks = $optionSets.find('a');
+ 
+       $optionLinks.click(function(){
+          var $this = $(this);
+    // don't proceed if already selected
+    if ( $this.hasClass('selected') ) {
+        return false;
+    }
+   var $optionSet = $this.parents('.option-set');
+   $optionSet.find('.selected').removeClass('selected');
+   $this.addClass('selected'); 
+});
+
+
+
+
+
+      
+  </script>
         
 
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
