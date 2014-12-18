@@ -7,9 +7,7 @@ title: collections
 	              <li><a href="#show-all" class="filter" data-option-value="all" class="selected">all</a></li>
 	              <li> — </li>
 
-	              
 
-	              <li><a href="#designjunction" class="filter" data-option-value="designjunction">Design Junction '13</a></li>
 	              <li><a href="#c-12" class="filter" data-option-value="c-12">C '12</a></li>
 	              <li><a href="#c-11" class="filter" data-option-value="c-11">C '11</a></li>
 	              <li><a href="#c-10" class="filter" data-option-value="c-10">C '10</a></li>
@@ -24,8 +22,17 @@ title: collections
 	              {% for category in site.categories %}
 			          <li class="number"><a href="#{{ category | uniq }}" class="filter" data-option-value="{{ category | uniq }}">{{ category | uniq }}</a></li>
 			      {% endfor %}
+
+			       <li> — </li>
+
+			      {% assign pages_list = site.posts %}
+		  		  {% assign group = 'collections' %}
+		  		  {% include sub-nav/collection-list.html %}
               
 	 </ul>
+
+	 
+
 
 </div>
 

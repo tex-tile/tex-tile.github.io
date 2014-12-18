@@ -6,10 +6,7 @@ title: projects
 	<ul id="filter" class="option-set clearfix" data-option-key="filter" >
 	              <li><a href="#show-all" class="filter" data-option-value="all" class="selected">all</a></li>
 	              <li> — </li>
-
 	              
-
-	              <li><a href="#designjunction" class="filter" data-option-value="designjunction">Design Junction '13</a></li>
 	              <li><a href="#c-12" class="filter" data-option-value="c-12">C '12</a></li>
 	              <li><a href="#c-11" class="filter" data-option-value="c-11">C '11</a></li>
 	              <li><a href="#c-10" class="filter" data-option-value="c-10">C '10</a></li>
@@ -21,7 +18,7 @@ title: projects
 
 	              <li> — </li>
 
-	              {% for category in site.categories %}
+	              {% for category in site.category %}
 			          <li class="number"><a href="#{{ category | uniq }}" class="filter" data-option-value="{{ category | uniq }}">{{ category | uniq }}</a></li>
 			      {% endfor %}
               
