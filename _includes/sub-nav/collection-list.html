@@ -1,11 +1,12 @@
-{% for node in pages_list %}
-  {% if group == null or group == node.group %}
-    {% if page.url == node.url %}
-      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
-    {% else %}
-      <li><a href="#{{node.folder}}" class="filter" data-option-value="{{node.folder}}">{{node.collection | uniq }}</a></li>
+{% for node in site.posts %}
+	
+  {% if group == node.group %}
+  	{% if previous_collection != nil %}
+	  	{% if node.collection != previous_collection %}
+	      <li><a href="#{{node.folder}}" class="filter" data-option-value="{{node.folder}}">{{node.collection }}</a></li>
+	    {% endif %}
     {% endif %}
+    {% assign previous_collection = node.collection %}
   {% endif %}
+
 {% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}

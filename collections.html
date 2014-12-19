@@ -8,9 +8,9 @@ title: collections
 	              <li> — </li>
 
 
-	              <li><a href="#c-12" class="filter" data-option-value="c-12">C '12</a></li>
-	              <li><a href="#c-11" class="filter" data-option-value="c-11">C '11</a></li>
-	              <li><a href="#c-10" class="filter" data-option-value="c-10">C '10</a></li>
+	              {% assign pages_list = site.posts %}
+		  		  {% assign group = 'collections' %}
+		  		  {% include sub-nav/collection-list.html %}
 	              
 				  <li> — </li>
 
@@ -25,13 +25,12 @@ title: collections
 
 			       <li> — </li>
 
-			      {% assign pages_list = site.posts %}
-		  		  {% assign group = 'collections' %}
-		  		  {% include sub-nav/collection-list.html %}
-              
+			      
+
+
 	 </ul>
 
-	 
+	{{ site.posts }}	 
 
 
 </div>
