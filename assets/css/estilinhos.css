@@ -6427,18 +6427,32 @@ ul {
   padding: 0px;
 }
 h1.title {
-  width: 130px;
   margin: 0px 0px 0px 0px;
+  margin-right: 23%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1.title {
+    margin-right: 9%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1.title {
+    margin-right: 35%;
+  }
+}
+@media (min-width: 865px) and (max-width: 920px) {
+  h1.title {
+    margin-right: 25%;
+  }
+}
+@media (min-width: 769px) and (max-width: 865px) {
+  h1.title {
+    margin-right: 15%;
+  }
 }
 @media (max-width: 767px) {
   h1.title {
-    width: 115px;
-    margin: 0px;
-  }
-}
-@media (min-width: 1199px) {
-  h1.title {
-    margin-right: 53px;
+    width: 124px;
   }
 }
 #filter {
@@ -6453,6 +6467,9 @@ h1.title {
 .navbar-default .navbar-collapse {
   border-top: 0px;
   border-color: #fff;
+}
+.navbar-collapse {
+  padding-left: 0px;
 }
 .navbar-nav > li > a {
   padding: 0px 0px 0px 0px;
@@ -6472,7 +6489,7 @@ h1.title {
 }
 .navbar-nav > li > a:first-child {
   padding-left: 0px;
-  margin-left: 13px;
+  margin-left: 0px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,

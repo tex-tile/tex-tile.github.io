@@ -7,30 +7,13 @@ title: collections
 	              <li><a href="#show-all" class="filter" data-option-value="all" class="selected">all</a></li>
 	              <li> — </li>
 
-
 	              {% assign pages_list = site.posts %}
 		  		  {% assign group = 'collections' %}
 		  		  {% include sub-nav/collection-list.html %}
-	              
-				  <li> — </li>
-
-				  <li><a href="#tiles" class="filter" data-option-value="tiles">tiles</a></li>
-	              <li><a href="#projects" class="filter" data-option-value="projects">projects</a></li>
-
-	              <li> — </li>
-
-	              {% for category in site.categories %}
-			          <li class="number"><a href="#{{ category | uniq }}" class="filter" data-option-value="{{ category | uniq }}">{{ category | uniq }}</a></li>
-			      {% endfor %}
-
-			       <li> — </li>
-
-			      
-
+	            
 
 	 </ul>
-
-	{{ site.posts }}	 
+ 
 
 
 </div>
