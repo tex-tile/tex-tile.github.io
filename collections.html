@@ -24,7 +24,7 @@ title: collections
 	  <ul id="container" class="posts">
 	        
 
-	        {% for post in site.posts %}
+	        {% for post in site.posts offset:1 %}
 
 	        {% if post.group == 'collections' %}
 
