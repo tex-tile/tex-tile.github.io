@@ -6455,6 +6455,10 @@ h1.title {
     width: 124px;
   }
 }
+.smcaps {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 #filter {
   margin-top: -5px;
 }
@@ -6548,6 +6552,10 @@ h1.title {
   filter: alpha(opacity=75);
   /* For IE8 and earlier */
 }
+.element.press {
+  margin-bottom: 60px;
+  padding: 0px 40px;
+}
 h6.press-e {
   margin-top: 0px;
   margin-bottom: 20px;
@@ -6618,5 +6626,15 @@ a.carousel-control:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
+  margin-bottom: 40px;
+}
+.press-img {
+  margin-bottom: 40px;
+}
+/* FOOTER */
+.footer {
+  margin-top: 80px;
+  border-top: 0px solid #dddddd;
+  padding-top: 20px;
   margin-bottom: 40px;
 }
