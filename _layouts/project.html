@@ -7,7 +7,7 @@ layout: default
 		{% include collections/{{ page.folder }}.html %}
 	</p>
 
-	
+
 </div>
 
 <div id="right" class="col-lg-7 col-lg-offset-1  col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-12">
@@ -23,7 +23,7 @@ layout: default
 
 		  	<div class="item active">
 		  				<h6>{{ page.collection }} | {{ page.title }} {% if page.size  != null %} | {{ page.size }} {% endif %}  {% if page.color  != null %} | {{ page.color }} {% endif %}</h6>
-				      <div class="tile-img {{ page.type }}"><img src="/assets/img/collections/{{ page.folder }}/{{ page.img }}" alt="{{ page.title }}" class="img-responsive"></div>
+				      <div class="tile-img {{ page.type }}"><img src="/assets/img/projects/{{ page.folder }}/{{ page.img }}" alt="{{ page.title }}" class="img-responsive"></div>
 				    </div>
 
 		  	{% for post in site.posts %}
@@ -31,7 +31,7 @@ layout: default
 	        		{% if post.title != page.title %}
 					    <div class="item">
 					    	<h6>{{ post.collection }} | {{ post.title }} {% if post.size  != null %} | {{ post.size }} {% endif %}  {% if post.color  != null %} | {{ post.color }} {% endif %}</h6>
-					      <div class="tile-img {{ post.type }}"><img src="/assets/img/collections/{{ post.folder }}/{{ post.img }}" alt="{{ post.title }}" class="img-responsive"></div>
+					      <div class="tile-img {{ post.type }}"><img src="/assets/img/projects/{{ post.folder }}/{{ post.img }}" alt="{{ post.title }}" class="img-responsive"></div>
 					      
 					    </div>
 			 		{% endif %}

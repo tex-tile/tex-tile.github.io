@@ -6399,8 +6399,8 @@ body {
   background: #ffffff;
   font-family: 'futura_reg', Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde";
   color: #232323;
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 12px;
+  line-height: 20px;
   padding: 40px;
 }
 @media (max-width: 767px) {
@@ -6472,12 +6472,12 @@ h1.title {
   padding-left: 0px;
 }
 .navbar-nav > li > a {
-  padding: 0px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
   margin: 0px 30px 0px 30px;
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 1px;
-  line-height: 60px;
+  line-height: 43px;
 }
 @media (max-width: 767px) {
   .navbar-nav > li > a {
@@ -6520,7 +6520,7 @@ h1.title {
   margin-bottom: 6px;
 }
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .navbar-default .navbar-nav > li > a.active {
   border-bottom: 2px solid #dddddd;
@@ -6548,26 +6548,33 @@ h1.title {
   filter: alpha(opacity=75);
   /* For IE8 and earlier */
 }
+h6.press-e {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
 /* TILE */
 h4.title {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
 }
 .carousel-control.right {
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  right: 60px;
+  right: 0px;
 }
 .carousel-control.left {
   background-image: none;
   background-repeat: no-repeat;
   filter: none;
-  left: 60px;
+  left: 0px;
 }
 .carousel-control {
-  width: 20px;
-  top: 250px;
+  width: 12px;
+  top: 22px;
 }
 a.carousel-control:hover {
   border-bottom: 0px solid #ffffff;
@@ -6580,11 +6587,36 @@ a.carousel-control:hover {
 }
 @media (min-width: 1199px) {
   .item .tile-img.tiles {
-    padding: 0px 200px;
+    padding: 0px 135px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .item .tile-img.tiles {
+    padding: 0px 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .item .tile-img.tiles {
+    padding: 0px 30px;
   }
 }
 @media (min-width: 1199px) {
   .item .tile-img.projects {
-    padding: 0px 140px;
+    padding: 0px 80px;
   }
+}
+.projects .item h6 {
+  margin-bottom: 50px;
+}
+/* PRESS */
+.press h4 {
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.press h5 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-bottom: 40px;
 }
