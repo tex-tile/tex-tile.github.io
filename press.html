@@ -1,18 +1,11 @@
 ---
 layout: default
-title: projects
+title: press
 ---
 <div id="left" class="col-lg-2 col-md-2 col-sm-3 col-xs-2">
-	<ul id="filter" class="option-set clearfix" data-option-key="filter" >
-	              <li><a href="#show-all" class="filter" data-option-value="all" class="selected">all</a></li>
-	              <li> — </li>
 
-	              {% assign pages_list = site.posts %}
-		  		  {% assign group = 'projects' %}
-		  		  {% include sub-nav/project-list.html %}
-	            
+ 
 
-	 </ul>
 
 </div>
 
@@ -24,18 +17,21 @@ title: projects
 
 	        {% for post in site.posts %}
 
-	        {% if post.group == 'projects' %}
+	        {% if post.group == 'press' %}
 
         
-	          <li class="element  {{ post.categories }} {{ post.year }} {{ post.folder }} {{ post.type }} col-lg-4 col-md-3 col-sm-4 col-xs-12" >
+	          <li class="element {{ post.categories }} {{ post.year }} {{ post.folder }} {{ post.type }} col-lg-3 col-md-3 col-sm-6 col-xs-12" >
 
 	            <a href="{{ post.url }}">
-	                  
-	            <img src="/assets/img/projects/{{ post.folder }}/{{ post.img }}" class="img-responsive">
+	             <h6 class="press-e">{{ post.title }}  
+              </h6>
+
+              
+	            <img src="/assets/img/press/{{ post.img[0] }}" class="img-responsive">
 	            
 	            </a>
 	            <!-- hidden-lg hidden-md hidden-sm -->
-	            <h6 class="">{{ post.collection }} </h6>
+	            
 	          </li>
 
 	        {% endif %}
