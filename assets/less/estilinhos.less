@@ -71,6 +71,12 @@ h1.title {
     @media (max-width: @screen-xs-max) {width: 124px;} 
 }
 
+.smcaps { 
+
+		text-transform: uppercase;
+		letter-spacing: 2px;
+			}
+
 #filter {margin-top: -5px;}
 
 /* MENU */
@@ -184,6 +190,11 @@ margin-bottom: 6px;
     filter: alpha(opacity=75); /* For IE8 and earlier */
 		}
 	}
+
+	&.press {
+		margin-bottom: 60px;
+		padding: 0px 40px; 
+	}
 }
 
  h6.press-e {
@@ -270,7 +281,17 @@ border-bottom: 0px solid #ffffff;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 		font-size: 11px;
-		margin-bottom: 40px;
+		margin-bottom: 40px;	
 	}
 }
 
+.press-img { margin-bottom: 40px;}
+
+/* FOOTER */
+
+.footer {
+	margin-top: 80px;
+	border-top: 0px solid @light-light-grey;
+	padding-top:20px;
+	margin-bottom: 40px;
+}

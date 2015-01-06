@@ -3,7 +3,7 @@ layout: press-l
 title:  "House and Garden October 2012"
 group: press
 folder: press
-link: "a"
+link: 
 img: 
 - house-october.jpg
 ---
