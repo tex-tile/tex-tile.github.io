@@ -6441,7 +6441,7 @@ h1.title {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   h1.title {
-    margin-right: 35%;
+    margin-right: 28%;
   }
 }
 @media (min-width: 865px) and (max-width: 920px) {
