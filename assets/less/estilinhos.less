@@ -75,6 +75,8 @@ h1.title {
     @media (min-width: 865px) and (max-width: 920px) {margin-right: 25%;} 
     @media (min-width: 769px) and (max-width: 865px) {margin-right: 15%;} 
     @media (max-width: @screen-xs-max) {width: 124px;} 
+
+    img {width: 100%}
 }
 
 .smcaps { 
@@ -109,7 +111,7 @@ h1.title {
 .navbar-nav > li > a {
 		
 		padding: 8px 0px 0px 0px;
-		margin: 0px 30px 0px 30px;
+		margin: 0px 30px 0px 0px;
 		text-transform: uppercase;
 		font-size: 10px;
 		letter-spacing: 1px;
@@ -122,7 +124,7 @@ h1.title {
 		      line-height: 10px;
     	}
 
-    	&:first-child {padding-left: 0px; margin-left: 0px;}
+    	
 }
 
 
@@ -141,7 +143,7 @@ background-color: #fff;
 }
 
 .navbar-nav {
-@media (max-width: @screen-xs-max) { margin: 27.5px -15px;}
+@media (max-width: @screen-xs-max) { margin: 27.5px 0px;}
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -216,6 +218,9 @@ margin-bottom: 6px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 12px;
+
+	@media (max-width: @screen-xs-max) {text-align: center; margin: 25px 0px 25px 0px;} 
+
 	}
 
 .carousel-control.right {
@@ -292,6 +297,9 @@ border-bottom: 0px solid #ffffff;
 }
 
 .press-img { margin-bottom: 40px;}
+
+#press-txt { @media (max-width: @screen-xs-max) { text-align: center;}
+}
 
 /* FOOTER */
 
