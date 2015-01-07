@@ -4,7 +4,7 @@ title:  "Designfair Stand Layout"
 type: projects
 folder: designjunction
 img: designjunction-02.jpg
-group: "projects"
+group: projects
 category: [2013]
 collection: "Designjunction '13" 
 ---

@@ -1,27 +1,13 @@
 {% for node in site.posts %}
 	
   {% if group == node.group %}
-  	{% if previous_collection != nil %}
-	  	{% if node.collection != previous_collection %}
+  	{% if previous_collection != nil and node.collection != previous_collection  %}
+	  	
 	      <li><a href="#{{node.folder}}" class="filter" data-option-value="{{node.folder}}">{{node.collection }}</a></li>
-	    {% endif %}
+	    
     {% endif %}
     {% assign previous_collection = node.collection %}
   {% endif %}
 
 {% endfor %}
 
-—
-
-{% for ano in site.posts %}
-	
-  {% if group == ano.group %}
-  	{% if ano_anterior != nil %}
-	  	{% if ano.collection != ano_anterior %}
-	      <li><a href="#{{ano.category}}" class="filter" data-option-value="{{ano.category}}">{{ano.category }}</a></li>
-	    {% endif %}
-    {% endif %}
-    {% assign ano_anterior = ano.collection %}
-  {% endif %}
-
-{% endfor %}
