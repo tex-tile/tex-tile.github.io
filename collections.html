@@ -26,22 +26,23 @@ title: collections
 
 	        {% for post in site.posts offset:1 %}
 
-	        {% if post.group == 'collections' %}
+  	        {% if post.group == 'collections' %}
 
-        
-	          <li class="element {{ post.categories }} {{ post.year }} {{ post.folder }} {{ post.type }} col-lg-4 col-md-3 col-sm-6 col-xs-12" >
+              {% if post.collection != 'fake'  %}
+          
+      	          <li class="element {{ post.categories }} {{ post.year }} {{ post.folder }} {{ post.type }} col-lg-4 col-md-3 col-sm-6 col-xs-12" >
 
-	            <a href="{{ post.url }}">
-	                  
-	            <img src="/assets/img/collections/{{ post.folder }}/{{ post.img }}" class="img-responsive">
-	            
-	            </a>
-	            <!-- hidden-lg hidden-md hidden-sm -->
-	            <h6 class="">{{ post.collection }} </h6>
-	          </li>
-
-	        {% endif %}
-
+      	            <a href="{{ post.url }}">
+      	                  
+      	            <img src="/assets/img/collections/{{ post.folder }}/{{ post.img }}" class="img-responsive">
+      	            
+      	            </a>
+      	            <!-- hidden-lg hidden-md hidden-sm -->
+      	            <h6 class="">{{ post.collection }} </h6>
+      	          </li>
+                  
+              {% endif %}
+  	        {% endif %}
 	        {% endfor %}
 
 	       

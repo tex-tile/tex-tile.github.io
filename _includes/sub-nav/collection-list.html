@@ -1,10 +1,10 @@
 {% for node in site.posts %}
 	
   {% if group == node.group %}
-  	{% if previous_collection != nil %}
-	  	{% if node.collection != previous_collection %}
+  	{% if previous_collection != nil and node.collection != previous_collection %}
+	  	
 	      <li><a href="#{{node.folder}}" class="filter" data-option-value="{{node.folder}}">{{node.collection }}</a></li>
-	    {% endif %}
+	    
     {% endif %}
     {% assign previous_collection = node.collection %}
   {% endif %}

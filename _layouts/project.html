@@ -4,7 +4,12 @@ layout: default
 <div id="left" class="col-lg-3  col-md-3   col-sm-4 col-xs-12">
 	<h4 class="title">{{ page.collection }}</h4 class="title">
 	<p>
-		{% include collections/{{ page.folder }}.html %}
+
+		{% for text in site.posts %}
+			{% if text.collection == page.collection %}	
+			{{ text.content }}
+			{% endif %}
+		{% endfor %}
 	</p>
 
 
