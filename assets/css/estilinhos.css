@@ -6529,6 +6529,11 @@ h1.title img {
 .header {
   margin-bottom: 60px;
 }
+@media (max-width: 767px) {
+  .header {
+    margin-bottom: 30px;
+  }
+}
 .navbar-default .navbar-nav > li > a.active {
   border-bottom: 2px solid #dddddd;
 }
