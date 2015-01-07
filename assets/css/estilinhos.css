@@ -6602,6 +6602,13 @@ a.carousel-control:hover {
   text-align: center;
   text-transform: lowercase;
 }
+@media (max-width: 767px) {
+  .item h6 {
+    margin-top: 16px;
+    padding: 0px 80px;
+    line-height: 18px;
+  }
+}
 @media (min-width: 1199px) {
   .item .tile-img.tiles {
     padding: 0px 135px;
