@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18493",
 "files": {
 	"\/_includes\/collections\/c-10.html": {
 		"fileType": 8192,
@@ -762,6 +762,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/id\/candida-profile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02762e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/id\/candida-profile.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/id\/candida-profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/id\/candida.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -894,6 +905,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/press\/mix-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39639,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/press\/mix-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/press\/mix-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/press\/xnet.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -942,7 +964,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 175068,
+		"initialSize": 196396,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/greece\/greece-02.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/greece\/greece-02.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1162,7 +1184,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.44119e+06,
+		"initialSize": 1.55764e+06,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/material-lab\/material-lab-02.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/material-lab\/material-lab-02.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5130,6 +5152,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/mix-int.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/mix-int.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/mix.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5581,7 +5612,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 817568,
+		"initialSize": 683851,
 		"inputAbbreviatedPath": "\/assets\/img\/collections\/c-12\/c-12-09.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/collections\/c-12\/c-12-09.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5647,7 +5678,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 798560,
+		"initialSize": 785874,
 		"inputAbbreviatedPath": "\/assets\/img\/collections\/kensington\/kensington-04.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/collections\/kensington\/kensington-04.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5962,6 +5993,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/id\/candida-profile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02762e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/id\/candida-profile.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/id\/candida-profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/id\/candida.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6094,6 +6136,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/press\/mix-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39798,
+		"inputAbbreviatedPath": "\/assets\/img\/press\/mix-3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/press\/mix-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/press\/xnet.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6142,7 +6195,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 196396,
+		"initialSize": 175068,
 		"inputAbbreviatedPath": "\/assets\/img\/projects\/greece\/greece-02.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/projects\/greece\/greece-02.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -6164,7 +6217,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 198168,
+		"initialSize": 397648,
 		"inputAbbreviatedPath": "\/assets\/img\/projects\/greece\/greece-04.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/projects\/greece\/greece-04.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -9868,6 +9921,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"indentation": {
 			"active": 1,
 			"flagValue": 2
@@ -9959,6 +10016,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -10015,6 +10076,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -10037,6 +10102,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -10091,6 +10160,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -10134,6 +10207,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -10200,6 +10277,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -10427,6 +10508,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -10451,8 +10533,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -10489,6 +10572,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -10532,6 +10619,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -10544,8 +10635,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {
