@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="left" class="col-lg-3  col-md-3   col-sm-4 hidden-xs">
-	<h4 class="title">{{ page.collection }}</h4 class="title">
+	<h4 class="title">{{ page.collection-full }}</h4 class="title">
 	<p>
 
 		{% for text in site.posts %}
@@ -27,7 +27,7 @@ layout: default
 		  <div class="carousel-inner" role="listbox">
 
 		  	<div class="item active">
-		  				<h6>{{ page.collection }} | {{ page.title }} {% if page.size  != null %} | {{ page.size }} {% endif %}  {% if page.color  != null %} | {{ page.color }} {% endif %}</h6>
+		  				<h6>&nbsp;</h6>
 				      <div class="tile-img {{ page.type }}"><img src="/assets/img/projects/{{ page.folder }}/{{ page.img }}" alt="{{ page.title }}" class="img-responsive"></div>
 				    </div>
 
@@ -35,7 +35,7 @@ layout: default
 	        	{% if post.folder == page.folder %}
 	        		{% if post.title != page.title %}
 					    <div class="item">
-					    	<h6>{{ post.collection }} | {{ post.title }} {% if post.size  != null %} | {{ post.size }} {% endif %}  {% if post.color  != null %} | {{ post.color }} {% endif %}</h6>
+					    	<h6>&nbsp;</h6>
 					      <div class="tile-img {{ post.type }}"><img src="/assets/img/projects/{{ post.folder }}/{{ post.img }}" alt="{{ post.title }}" class="img-responsive"></div>
 					      
 					    </div>
