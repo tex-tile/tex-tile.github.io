@@ -22,7 +22,8 @@ title: press
         
 	          <li class="element {{ post.categories }} {{ post.year }} {{ post.folder }} {{ post.type }} col-lg-4 col-md-3 col-sm-6 col-xs-12" >
 
-	            <a href="{{ post.url }}">
+	            <a href="{% if post.link  != null %} {{ post.link }} {% else %} {{ post.url }} {% endif %}"
+                {% if post.link  != null %} target="_blank" {% endif %}>
 	             <h6 class="press-e">{{ post.title }}  
               </h6>
 
