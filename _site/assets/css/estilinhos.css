@@ -6540,6 +6540,7 @@ h1.title img {
 /* HOME */
 #filter li {
   margin-bottom: 4px;
+  text-transform: lowercase;
 }
 #filter .number {
   font-size: 11px;
@@ -6663,4 +6664,13 @@ a.carousel-control:hover {
   border-top: 0px solid #dddddd;
   padding-top: 20px;
   margin-bottom: 40px;
+}
+/* TEXTS */
+.texts #right img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.texts h6 {
+  text-transform: uppercase;
 }
