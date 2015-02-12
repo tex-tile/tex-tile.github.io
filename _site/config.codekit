@@ -137,6 +137,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/css\/estilinhos.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/estilinhos.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/assets\/img\/collections\/c-10\/c-10-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -298,17 +307,6 @@
 		"initialSize": 853630,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/collections\/c-12\/c-12-02.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/collections\/c-12\/c-12-02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/collections\/c-12\/c-12-03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.14001e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/collections\/c-12\/c-12-03.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/collections\/c-12\/c-12-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -555,17 +553,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/press\/deco.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 345272,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/press\/deco.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/press\/deco.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/img\/press\/gcr.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -573,28 +560,6 @@
 		"initialSize": 3338,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/press\/gcr.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/press\/gcr.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/press\/house-june.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.36042e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/press\/house-june.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/press\/house-june.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/press\/house-october.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.75188e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/press\/house-october.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/press\/house-october.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -705,17 +670,6 @@
 		"initialSize": 198168,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/greece\/greece-03.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/greece\/greece-03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/greece\/greece-04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 397648,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/greece\/greece-04.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/greece\/greece-04.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1039,116 +993,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.18958e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-01.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.40334e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-02.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.25386e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-03.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.58139e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-04.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-05.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.48833e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-05.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-05.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-06.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.30025e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-06.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-06.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-07.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.17621e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-07.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-07.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-08.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.2733e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-08.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/making-m-lab\/making-m-lab-08.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/material-lab\/material-lab-01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.62996e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/material-lab\/material-lab-01.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/material-lab\/material-lab-01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/material-lab\/material-lab-02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.55764e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/material-lab\/material-lab-02.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/material-lab\/material-lab-02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/img\/projects\/mouraria-p\/mouraria-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1347,28 +1191,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.55654e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-01.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.75867e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-02.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1376,28 +1198,6 @@
 		"initialSize": 1.01842e+06,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-03.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.26806e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-04.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-05.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.13751e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-05.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/projects\/queen-gate\/queen-gate-05.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1412,6 +1212,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/less\/elements.less",
 		"outputAbbreviatedPath": "\/_site\/assets\/css\/elements.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/_site\/assets\/less\/estilinhos.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/less\/estilinhos.less",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/estilinhos.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
