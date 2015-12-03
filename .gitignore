@@ -1,3 +1,4 @@
 config.codekit
 Gemfile
 Gemfile.lock
+*.codekit
