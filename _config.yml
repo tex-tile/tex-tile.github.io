@@ -6,3 +6,8 @@ permalink: /:title.html
 
 gems:
   - jekyll-sitemap
+
+exclude:
+  - /bower_components/get-size
+  - /bower_components/jquery-bridget/test
+  - /bower_components/masonry/sandbox

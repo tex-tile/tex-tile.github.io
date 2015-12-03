@@ -496,58 +496,6 @@
     <loc>/video.html</loc>
   </url>
   <url>
-    <loc>/bower_components/get-size/index.html</loc>
-    <lastmod>2014-11-26T17:27:29+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/jquery-bridget/test/index.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/add-items.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/basic.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/bottom-up.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/browserify/index.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/element-sizing.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/fit-width.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/fluid.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/jquery.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/require-js/index.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/right-to-left.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>/bower_components/masonry/sandbox/stamps.html</loc>
-    <lastmod>2015-12-03T12:01:00+00:00</lastmod>
-  </url>
-  <url>
     <loc>/googlecd8723c6785248a9.html</loc>
     <lastmod>2015-03-04T14:18:16+00:00</lastmod>
   </url>
