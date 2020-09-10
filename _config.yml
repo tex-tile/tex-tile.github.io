@@ -1,6 +1,6 @@
 name: tex-tile
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 
 permalink: /:title.html
 
